@@ -1,0 +1,134 @@
+.container{
+    height: auto;
+    width: 100%;
+    background-color: pink;
+}
+header{
+    height: 65px;
+    width:100%;
+    background-color: #f0e8a1;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    bottom: 55px;
+}
+ li {
+    padding: 20px;
+  }
+
+
+  .up{
+    display: flex;
+    justify-content: flex-start;
+    background-color: #f0e8a1;
+    height: 35px;
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+    box-shadow: 2px 2px 2px 2px grey;
+   
+}
+#upper{
+    padding: 1px 200px;
+    font-family: inherit;
+    font-size: 19px;
+    color:#5c6e4c; 
+    position: relative;
+    bottom: 7px;
+}
+center{
+    background-color: white;
+    height: 550px;
+    width: 100%;
+    position: relative;
+    top: 1px;
+}
+ .down{
+    display:flex;
+    justify-content: flex-start;
+    height: 35px;
+    width: 100%;
+    background-color: white;
+    border-radius: 0px 0px 20px 20px;
+    box-shadow:  2px 2px 2px 2px grey;
+    position: relative;
+    
+}
+#downward{
+    padding: 0px 150px;
+    position: relative;
+    bottom: 15px;
+    left: 10px;
+    color: grey;
+    font-size:17px ;
+    font-family: serif;
+}
+.images{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    position: relative;
+    bottom: 18px;
+    background-color: white;
+    padding: 5px;
+    gap: 25px;
+    }
+img{
+    height: 150px;
+    width: 160px;
+    border-radius: 18%;
+    position: relative;
+    padding-top: 15px;
+    position: relative;
+    bottom: 20px;
+
+    
+
+}
+#name{
+    font-family:sans-serif;
+}
+
+figure{
+    height: 250px; 
+    width: 150px; 
+    border: 2px solid black;
+    border-radius: 15px ;
+    margin: auto;
+    flex-basis: 20%;
+    padding: 10px;
+}
+figcaption{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    position: relative;
+    bottom: 10px;
+}
+#name,#rupee,#order{
+    margin: 0;
+    padding: 5px;
+}
+
+#order{
+    background-color:orangered ;
+    width: 50%;
+    text-align: center;
+    border-radius: 25px;
+    color: white;
+}
+#pop{
+    position: relative;
+    bottom: 10px;
+}
+#rupee{
+    color: grey;
+}
